@@ -1,4 +1,5 @@
-import 'package:custom_painter/src/pages/headers_page.dart';
+import 'package:custom_painter/src/pages/animations_page.dart';
+// import 'package:custom_painter/src/pages/headers_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HeadersPage(),
+      home: const AnimationsPage(),
     );
   }
 }
